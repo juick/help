@@ -1,0 +1,64 @@
+<h2>HTTP API</h2>
+
+<p>Запросы GET (для чтения) и POST (для написания сообщений / комментариев) на http://api.juick.com.</p>
+<p>Для GET-запросов возвращается результат в формате JSON / JSONP; имя callback-функции для JSONP – в параметре callback.</p>
+
+<h3>Списки сообщений</h3>
+
+Список последних сообщений:
+<pre>http://api.juick.com/messages</pre>
+
+Поиск по сообщениям:
+<pre>http://api.juick.com/messages?search=<b>запрос</b></pre>
+
+Фильтрация по тегу:
+<pre>http://api.juick.com/messages?tag=<b>тег</b></pre>
+
+Фильтрация по типу контента:
+<pre>http://api.juick.com/messages?media=all
+http://api.juick.com/messages?media=photo
+http://api.juick.com/messages?media=video</pre>
+
+Последние сообщения пользователя:
+<pre>http://api.juick.com/messages?user_id=<b>uid</b>
+http://api.juick.com/messages?user_id=<b>uid</b>&tag=<b>тег</b></pre>
+
+Для списков сообщений выводится одна «страница». Для вывода дополнительных «страниц»: параметры before_mid, page
+<pre>http://api.juick.com/messages?before_mid=<b>id последнего загруженного сообщения</b>&page=<b>page</b></pre>
+
+<h3>Просмотр сообщения с комментариями</h3>
+http://api.juick.com/thread?mid=<b>message ID</b>
+
+<h3>Пользователи</h3>
+
+Получение UserID по нику:
+<pre>http://api.juick.com/users?uname=ugnich</pre>
+
+<h3>Список тегов</h3>
+
+Популярные теги:
+<pre>http://api.juick.com/tags</pre>
+
+Все теги пользователя:
+<pre>http://api.juick.com/tags?user_id=<b>uid</b></pre>
+
+<h3>Прочее</h3>
+
+Аватары:
+<p>Аватар пользователя с UID=123 доступен по адресу:<br/>
+<strong>http://i.juick.com/a/<b>123</b>.png</strong> &mdash; 96x96px<br/>
+<strong>http://i.juick.com/as/<b>123</b>.png</strong> &mdash; 32x32px</p>
+
+<p>Аватар пользователя с ником <b>ugnich</b> доступен по адресу:<br/>
+<strong>http://api.juick.com/avatar?uname=ugnich<br/>
+http://api.juick.com/avatar?uname=ugnich&size=32</strong></p>
+
+<p>Все аватары хранятся в формате PNG.</p>
+
+<h3>WebSocket</h3>
+
+Все публичные посты:
+<pre>ws://api.juick.com:8080/all</pre>
+
+Ответы во всех публичных постах:
+<pre>ws://api.juick.com:8080/replies</pre>

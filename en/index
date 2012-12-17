@@ -1,0 +1,23 @@
+<p>To start your microblog on our site, simply open your favourite jabber 
+client and add a user <b>juick@juick.com</b> to contact-list. Registration is
+not needed. Now, all that you will send to this contact, will be published in
+your microblog.</p>
+
+<p>To answer to message #n: type &quot;sharp sign&quot;, message number and,
+after space, text of your answer.<br/>
+For example: <strong>#1234 Thank's, very interesting.</strong></p>
+
+<p>At the top of the microblog there are information about its author. This
+info is loaded automatically from a Jabber vCard.</p>
+
+<p>Besides usual messages, you can send a special commands:</p>
+
+<p><strong>NICK mynickname</strong> &mdash; set a nickname</p>
+<p><strong>S @username</strong> &mdash; subscribe to user's blog</p>
+<p><strong>U @username</strong> &mdash; unsubscribe from user's blog</p>
+<p><strong>S #1234</strong> &mdash; subscribe to message replies</p>
+<p><strong>U #1234</strong> &mdash; unsubscribe from message replies</p>
+<p><strong>D #1234</strong> &mdash; delete message #1234.</p>
+<p><strong>D L</strong> &mdash; delete your last message.</p>
+<p><strong>VCARD</strong> &mdash; refresh your info from vCard</p>
+<p><strong>HELP</strong> &mdash; short help</p>
