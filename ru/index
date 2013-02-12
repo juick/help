@@ -36,7 +36,7 @@
 <strong>*public</strong> — *public делает пост общедоступным, даже если вы скрыли свой блог от всех в <a href="http://juick.com/settings?page=privacy">настройках сервиса</a>.<br/>
 <strong>*readonly</strong> — запрещает пользователям комментировать пост. Вы всегда можете комментировать свои посты. <br/>
 <strong>*code</strong> — отключает форматирование текста в посте. <br/>
-<strong>*novk, *notwitter, *nofb</strong> — отключают кросспостинг отдельных сообщений в социальные сети. Кросспостингд доступен в <a href="http://juick.com/settings?page=privacy">настройках сервиса</a>.<br/>
+<strong>*novk, *notwitter, *nofb</strong> — отключают кросспостинг отдельных сообщений в социальные сети. Кросспостинг доступен в <a href="http://juick.com/settings?page=privacy">настройках сервиса</a>.<br/>
 </p>
 
 <h2>Рекомендации</h2>
