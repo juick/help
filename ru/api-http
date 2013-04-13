@@ -62,3 +62,11 @@ http://api.juick.com/avatar?uname=ugnich&size=32</strong></p>
 
 Ответы во всех публичных постах:
 <pre>ws://api.juick.com:8080/replies</pre>
+
+<h3>Push уведомления</h3>
+Google Cloud Messaging:
+<pre>http://api.juick.com/android/register?regid=...
+http://api.juick.com/android/unregister?regid=...</pre>
+Microsoft Push Notification Service:
+<pre>http://api.juick.com/winphone/register?url=...
+http://api.juick.com/winphone/unregister?url=...</pre>
