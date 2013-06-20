@@ -34,6 +34,12 @@ http://api.juick.com/thread?mid=<b>message ID</b>
 Получение UserID по нику:
 <pre>http://api.juick.com/users?uname=ugnich</pre>
 
+Блоги, которые читает пользователь:
+<pre>http://api.juick.com/users/read?user_id=<b>1</b></pre>
+
+Подписчики пользователя:
+<pre>http://api.juick.com/users/readers?user_id=<b>1</b></pre>
+
 <h3>Список тегов</h3>
 
 Популярные теги:
