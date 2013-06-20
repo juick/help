@@ -35,10 +35,16 @@ http://api.juick.com/thread?mid=<b>message ID</b>
 <pre>http://api.juick.com/users?uname=ugnich</pre>
 
 Блоги, которые читает пользователь:
-<pre>http://api.juick.com/users/read?user_id=<b>1</b></pre>
+<pre>http://api.juick.com/users/read?uname=<b>ugnich</b></pre>
 
 Подписчики пользователя:
-<pre>http://api.juick.com/users/readers?user_id=<b>1</b></pre>
+<pre>http://api.juick.com/users/readers?uname=<b>ugnich</b></pre>
+
+Блоги, которые читает текущий аутентифицированный пользователь:
+<pre>http://api.juick.com/users/read</pre>
+
+Подписчики текущего аутентифицированного пользователя:
+<pre>http://api.juick.com/users/readers</pre>
 
 <h3>Список тегов</h3>
 
