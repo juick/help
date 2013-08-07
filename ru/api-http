@@ -70,10 +70,29 @@ http://api.juick.com/avatar?uname=ugnich&size=32</strong></p>
 <h3>WebSocket</h3>
 
 Все публичные посты:
-<pre>ws://api.juick.com:8080/all</pre>
+<pre>ws://ws.juick.com/_all</pre>
 
 Ответы во всех публичных постах:
-<pre>ws://api.juick.com:8080/replies</pre>
+<pre>ws://ws.juick.com/_replies</pre>
+
+Публичные сообщения пользователя:
+<pre>ws://ws.juick.com/<b>ugnich</b>/</pre>
+
+Комментарии к публичному сообщению:
+<pre>ws://ws.juick.com/<b>1234567</b></pre>
+
+Соединение с сервером WebSocket и обмен данными осуществляются в формате, описанном в <a href="http://tools.ietf.org/html/rfc6455" rel="nofollow">RFC 6455</a>.
+
+Если клиент ничего не передавал серверу через websocket соединение в течение 60 секунд, то сервер отправит ему текстовое сообщение состоящее из одного символа пробела.
+Если клиент ничего не передавал серверу в течение 3-х минут, то сервер разорвет соединение.
+Чтобы поддерживать длительные соединения, желательно отвечать на "пинги" сервера. Например, следующим кодом на JavaScript:
+<pre>websocket.onmessage=function(event) {  
+  if(event.data==' ') {
+    websocket.send(' ');
+  } else {
+    // ...
+  }
+};</pre>
 
 <h3>Push уведомления</h3>
 Google Cloud Messaging:
