@@ -46,16 +46,5 @@
 
 <p>Если вам нравится план развития сервиса, переведите любую приемлемую для вас сумму через PayPal или WebMoney. Эти деньги пойдут на оплату сервера, покупку SSL сертификата и прочие текущие нужды сервиса (оплата доменов, DNS хостинг, инструменты для разработки, ...). Ваши пожертвования дадут возможность уделять больше времени сервису и ускорят процесс разработки. Заранее спасибо!</p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_donations">
-<input type="hidden" name="business" value="anton@ugnich.com">
-<input type="hidden" name="lc" value="US">
-<input type="hidden" name="item_name" value="Juick">
-<input type="hidden" name="no_note" value="0">
-<input type="hidden" name="currency_code" value="USD">
-<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin: 10px 0 10px 10px">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<p><b>Z366025974341</b><br/><b>R234589093194</b></p>
+<p>PayPal: <b>anton@ugnich.com</b><br/>
+WebMoney: <b>Z366025974341</b> <b>R234589093194</b></p>
