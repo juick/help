@@ -3,7 +3,7 @@
 <p>Запросы GET (для чтения) и POST (для написания сообщений / комментариев) на http://api.juick.com.</p>
 <p>Для GET-запросов возвращается результат в формате JSON / JSONP; имя callback-функции для JSONP – в параметре callback.</p>
 
-<h3>Списки сообщений</h3>
+<h3>Блоги</h3>
 
 Список последних сообщений:
 <pre>http://api.juick.com/messages</pre>
@@ -26,8 +26,16 @@ http://api.juick.com/messages?user_id=<b>uid</b>&tag=<b>тег</b></pre>
 Для списков сообщений выводится одна «страница». Для вывода дополнительных «страниц»: параметры before_mid, page
 <pre>http://api.juick.com/messages?before_mid=<b>id последнего загруженного сообщения</b>&page=<b>page</b></pre>
 
-<h3>Просмотр сообщения с комментариями</h3>
-http://api.juick.com/thread?mid=<b>message ID</b>
+Просмотр сообщения с комментариями:
+<pre>http://api.juick.com/thread?mid=<b>message ID</b></pre>
+
+<h3>Приватные сообщения (чаты)</h3>
+
+Последние сообщения чата:
+<pre>http://api.juick.com/pm?uname=<b>ugnich</b></pre>
+
+Отправить сообщение (POST):
+<pre>http://api.juick.com/pm?uname=<b>ugnich</b>&body=<b>hello+world</b></pre>
 
 <h3>Пользователи</h3>
 
