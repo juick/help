@@ -1,20 +1,14 @@
 <h2>RSS</h2>
+
 <p>Juick поддерживает RSS для публичных постов и комментариев к ним</p>
 <p>
-  <strong>http://rss.juick.com/номерпоста</strong> – комментарии к посту <br>
+  <strong>http://rss.juick.com/номерпоста</strong> – комментарии к посту <br/>
   <strong>http://rss.juick.com/юзернейм/blog</strong> – публичные посты пользователя
 </p>
-<p>Например: <br>
-  <a href="http://rss.juick.com/1116939">http://rss.juick.com/1116939</a> – комментарии к посту <a href="http://juick.com/1116939">#1116939</a>
+
+<p>Например: <br/>
+  <a href="http://rss.juick.com/1116939">http://rss.juick.com/1116939</a> – комментарии к посту <a href="http://juick.com/1116939">#1116939</a><br/>
   <a href="http://rss.juick.com/juick/blog">http://rss.juick.com/juick/blog</a> – публичные посты пользователя <a href="http://juick.com/juick">@juick</a>
 </p>
-<p>Дополнительно можно указать количество последних сообщений для экспорта URL-параметром <strong>count=N<strong>
-  </strong></strong></p><h2>JS, JSONP</h2><p>Кроме того, личный блог экспортируется в формате JS для интеграции на другие ресурсы. Адрес потока совпадает с потоком RSS, но требуется указание формата экспорта URL-параметром <strong>format=js</strong>. Параметр <strong>count</strong> также поддерживается.<br>
-</p>
 
-<p>При экспорте в формате JSONP используется URL-параметр <strong>format=json</strong> и добавляется URL-параметр <strong>callback=SomeFunctionName</strong>
-</p>
-
-
-
-<p>Например:</p><pre>&lt;script type="text/javascript" src="http://rss.juick.com/juick/blog?format=js&amp;count=5"&gt;&lt;/script&gt;</pre>
+<p>Дополнительно можно указать количество последних сообщений для экспорта URL-параметром <strong>count=N</strong></p>
