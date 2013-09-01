@@ -1,3 +1,8 @@
+ <h2>Контакты</h2>
+ <hr>
+ <p>По всем вопросам о сотрудничестве и развитии сервиса:</p>
+<img src="http://api.juick.com/avatar?uname=ugnich">
+<strong>Антон Угнич</strong>, основатель и разработчик<p></p>
 <p>E-Mail: <span id="mail">enable Javascript to see</span><br/>
 JabberID: <span id="jabber">enable Javascript to see</span></p>
 
@@ -18,3 +23,20 @@ for(var i=0; i<str.length; i+=2) {
 }
 document.getElementById("jabber").innerHTML=strnew;
 //--></script>
+
+<h2>Пожертвования</h2><hr>
+<p>Когда-то давно на Juick были платные и бесплатные аккаунты. Мне не нравилась модель с искусственными ограничениями и дискриминацией пользователей. Поэтому платные аккаунты вскоре исчезли.</p>
+<p> К сожалению, без денег сервис существовать не может и сейчас передо мною стоит непростая задача, как сохранить Juick комфортным местом для общения и получить средства для развития сервиса, чтобы он не умер.</p>
+<p class=""> Вы можете помочь.</p>
+
+<hr><p><em>Ежемесячно тебуется не менее 3960 рублей ~ 8 добровольцев.</em></p>
+
+<!-- Место под виджет "сколько уже собрано". Для него нужно разрешить доступ к кошельку — сгенерировать ключ и получить код на https://money.yandex.ru/share/index.xml --> 
+
+<!-- Номер ЯДа взят из http://juick.com/juick/1672638 -->
+
+<!-- Далее использован https://money.yandex.ru/embed/quickpay/donate.xml из--за более лаконичного интерфейса. -->
+
+<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/donate.xml?uid=41001181712709&amp;default-sum=500&amp;targets=%D0%92%D1%8B+%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%D0%B5+%D0%BF%D0%BE%D0%BC%D0%BE%D1%87%D1%8C.&amp;project-name=Juick&amp;project-site=http%3A%2F%2Fjuick.com&amp;button-text=05&amp;comment=on&amp;hint=%D0%9C%D0%BE%D0%B6%D0%B5%D1%82%D0%B5+%D1%83%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C+%D1%81%D0%B2%D0%BE%D0%B9+%D0%BD%D0%B8%D0%BA+%D0%B8%D0%BB%D0%B8+%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D0%BE%D0%B5%3A)" width="450" height="179"></iframe>
+
+<!-- Ещё есть https://money.yandex.ru/embed/quickpay/shop.xml, но отличий относительно donate.xml я не нашёл. Условия те же. -->
