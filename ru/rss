@@ -1,14 +1,10 @@
 <h2>RSS</h2>
 
-<p>Juick поддерживает RSS для публичных постов и комментариев к ним</p>
+<p>Juick поддерживает RSS для публичных постов:</p>
 <p>
-  <strong>http://rss.juick.com/номерпоста</strong> – комментарии к посту <br/>
   <strong>http://rss.juick.com/юзернейм/blog</strong> – публичные посты пользователя
 </p>
 
 <p>Например: <br/>
-  <a href="http://rss.juick.com/1116939">http://rss.juick.com/1116939</a> – комментарии к посту <a href="http://juick.com/1116939">#1116939</a><br/>
   <a href="http://rss.juick.com/juick/blog">http://rss.juick.com/juick/blog</a> – публичные посты пользователя <a href="http://juick.com/juick">@juick</a>
 </p>
-
-<p>Дополнительно можно указать количество последних сообщений для экспорта URL-параметром <strong>count=N</strong></p>
