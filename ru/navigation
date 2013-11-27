@@ -9,7 +9,6 @@
 </ul>
 
 <ul>
-  <li><a href="rss">RSS и экспорт</a></li>
   <li><a href="api-http">HTTP API</a></li>
   <li><a href="api-xmpp">XMPP API</a></li>
 </ul>
