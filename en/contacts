@@ -5,10 +5,10 @@ Our servers are hosted by <a href="http://yandex.ru">Yandex</a> and are managed 
 ul{ list-style-type: none;}
 </style>
 <ul>
-<li>@<a href="http://juick.com/ermine/">ermine</a> — sovereign;</li>
-<li>@<a href="http://juick.com/vt/">vt</a> — idea-monger, architect, programmer;</li>
-<li>@<a href="http://juick.com/zinid/">zinid</a> — erlanger, one of <a href="http://www.ejabberd.im">ejabberd</a> authors;</li>
-<li>@<a href="http://juick.com/oxpa/">oxpa</a> — administrator.</li>
+<li><a href="http://juick.com/ermine/">@ermine</a> — sovereign;</li>
+<li><a href="http://juick.com/vt/">@vt</a> — idea-monger, architect, programmer;</li>
+<li><a href="http://juick.com/zinid/">@zinid</a> — erlanger, one of <a href="http://www.ejabberd.im">ejabberd</a> authors;</li>
+<li><a href="http://juick.com/oxpa/">@oxpa</a> — administrator.</li>
 </ul>
 <p>The most reliable way to contact administration are posts with *<a href="http://juick.com/tag/Juick">Juick</a> tag<br/>
 We are open to discuss any enchantments and problems </p>

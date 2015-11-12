@@ -5,10 +5,10 @@
 ul{ list-style-type: none;}
 </style>
 <ul>
-<li>@<a href="http://juick.com/ermine/">ermine</a> — владычица;</li>
-<li>@<a href="http://juick.com/vt/">vt</a> — идеолог-архитектор-программист;</li>
-<li>@<a href="http://juick.com/zinid/">zinid</a> — erlang'ист и один из авторов <a href="http://www.ejabberd.im">ejabberd</a>;</li>
-<li>@<a href="http://juick.com/oxpa/">oxpa</a> — администратор.</li>
+<li><a href="http://juick.com/ermine/">@ermine</a> — владычица;</li>
+<li><a href="http://juick.com/vt/">@vt</a> — идеолог-архитектор-программист;</li>
+<li><a href="http://juick.com/zinid/">@zinid</a> — erlang'ист и один из авторов <a href="http://www.ejabberd.im">ejabberd</a>;</li>
+<li><a href="http://juick.com/oxpa/">@oxpa</a> — администратор.</li>
 </ul>
 <p> Самый надёжный способ связи с администрацией - посты с тэгом *<a href="http://juick.com/tag/Juick">Juick</a> <br/>
 Мы всегда готовы обсудить с вами проблемы сервиса и любые улучшения.</p> 
