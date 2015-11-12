@@ -1,47 +1,5 @@
 <h2>Реклама ваших сообщений</h2>
 
 <p>Хотите, чтобы ваше сообщение прочитали <b>все</b> пользователи Juick?</p>
-
-<p>Эта платная услуга позволяет демонстрировать ваш пост вверху главной ленты
-всех пользователей Juick, независимо от того, подписаны они на ваш блог или
-нет.</p>
-
-<p><b>Условия размещения:</b><br/>
-- к рекламе допускаются посты без фотографий, длиной до 300 символов,
-  не более одной ссылки;<br/>
-- реклама демонстрируется только зарегистрированным пользователям Juick;<br/>
-- одному пользователю пост будет показан не более 3 раз в сутки;<br/>
-- ваше обьявление будет размещено первым в списке;<br/>
-- обьявление будет отмечено словом &quot;Реклама&quot; рядом с датой поста;<br/>
-- обьявление демонстрируется на сайте juick.com, на страницах &quot;Домой&quot; и &quot;Обзор&quot;;<br/>
-- мы оставляем за собой право отказать в платном размещении поста, без
-  обьяснения причин, с возвратом денег по стандартной процедуре PayPal.</p>
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="NFSR8XNKG76AG">
-<table>
-  <tr>
-    <td><input type="hidden" name="on0" value="Amount">Количество показов:</td>
-  </tr>
-  <tr>
-    <td><select name="os0">
-      <option value="1000 views">1000 показов - $10 USD</option>
-      <option value="2000 views">2000 показов - $19 USD</option>
-      <option value="5000 views">5000 показов - $45 USD</option>
-    </select></td>
-  </tr>
-  <tr>
-    <td><input type="hidden" name="on1" value="Message number">Номер сообщения или ссылка на него:</td>
-  </tr>
-  <tr>
-    <td><input type="text" name="os1" maxlength="200"></td>
-  </tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
 <p>С любыми вопросами и предложениями обращайтесь по адресам на странице <a href="/help/ru/contacts">Контакты</a>.</p>
 	    
