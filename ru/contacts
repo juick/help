@@ -13,7 +13,7 @@ ul{ list-style-type: none;}
 <p> Самый надёжный способ связи с администрацией - посты с тэгом *<a href="http://juick.com/tag/Juick">Juick</a> <br/>
 Мы всегда готовы обсудить с вами проблемы сервиса и любые улучшения.</p> 
 <p>Если по каким-то причинам вы не можете писать в ваш блог, вы можете написать нам письмо :
-E-Mail: <span id="mail"><a href="mailto:juick@juick.com">juick@juick.com</a></span><br/> </p>
+<span id="mail"><a href="mailto:juick@juick.com">juick@juick.com</a></span><br/> </p>
 <p> Если вы хотите помочь проекту или обсудить что-либо в режиме IM, можно обратиться в конференцию:
-JabberID: <span id="jabber"><a href="xmpp:support@conference.jabber.ru">support@conference.jabber.ru</a></span></p>
+<span id="jabber"><a href="xmpp:support@conference.jabber.ru">support@conference.jabber.ru</a></span></p>
 
