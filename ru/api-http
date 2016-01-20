@@ -20,8 +20,8 @@ http://api.juick.com/messages?media=photo
 http://api.juick.com/messages?media=video</pre>
 
 Последние сообщения пользователя:
-<pre>http://api.juick.com/messages?user_id=<b>uid</b>
-http://api.juick.com/messages?user_id=<b>uid</b>&tag=<b>тег</b></pre>
+<pre>http://api.juick.com/messages?uname=<b>nick</b>
+http://api.juick.com/messages?uname=<b>nick</b>&tag=<b>тег</b></pre>
 
 Для списков сообщений выводится одна «страница». Для вывода дополнительных «страниц»: параметр before_mid
 <pre>http://api.juick.com/messages?before_mid=<b>id последнего загруженного сообщения</b></pre>
