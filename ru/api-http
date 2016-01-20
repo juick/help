@@ -23,8 +23,8 @@ http://api.juick.com/messages?media=video</pre>
 <pre>http://api.juick.com/messages?user_id=<b>uid</b>
 http://api.juick.com/messages?user_id=<b>uid</b>&tag=<b>тег</b></pre>
 
-Для списков сообщений выводится одна «страница». Для вывода дополнительных «страниц»: параметры before_mid, page
-<pre>http://api.juick.com/messages?before_mid=<b>id последнего загруженного сообщения</b>&page=<b>page</b></pre>
+Для списков сообщений выводится одна «страница». Для вывода дополнительных «страниц»: параметр before_mid
+<pre>http://api.juick.com/messages?before_mid=<b>id последнего загруженного сообщения</b></pre>
 
 Просмотр сообщения с комментариями:
 <pre>http://api.juick.com/thread?mid=<b>message ID</b></pre>
