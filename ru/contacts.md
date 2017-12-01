@@ -1,19 +1,7 @@
-<h2>Контакты</h2>
-<p> <b>Juick.com</b> - проект администрации <a href="https://jabber.ru">jabber.ru</a><br/>
-Наши серверы находятся в DC <a href="https://yandex.ru/">Яндекса</a> и управляются четырьмя людьми: </p>
-<style type="text/css"> 
-ul{ list-style-type: none;}
-</style>
-<ul>
-<li><a href="https://juick.com/ermine/">@ermine</a> — владычица</li>
-<li><a href="https://juick.com/vt/">@vt</a> — идеолог, архитектор, программист</li>
-<li><a href="https://juick.com/zinid/">@zinid</a> — erlang'ист, один из соавторов <a href="https://www.ejabberd.im/">ejabberd</a></li>
-<li><a href="https://juick.com/oxpa/">@oxpa</a> — администратор</li>
-</ul>
-<p>Самый надёжный способ связаться с администрацией - посты с тэгом *<a href="https://juick.com/tag/Juick">Juick</a> <br/>
-Мы всегда готовы обсудить проблемы сервиса и любые улучшения.</p> 
-<p>Если по каким-то причинам Вы не можете писать в личный блог, напишите нам письмо:
-<span id="mail"><a href="mailto:support@juick.com">support@juick.com</a></span><br/> </p>
-<p>Если Вы хотите помочь проекту или обсудить что-либо в режиме IM, обратитесь в конференцию:
-<span id="jabber"><a href="xmpp:support@conference.jabber.ru">support@conference.jabber.ru</a></span></p>
+Контакты
+========
 
+Самый надёжный способ связаться с администрацией - посты с тэгом [*Juick](https://juick.com/tag/Juick)
+Мы всегда готовы обсудить проблемы сервиса и любые улучшения.
+
+Если по каким-то причинам Вы не можете писать в личный блог, напишите нам [письмо](mailto:support@juick.com)
