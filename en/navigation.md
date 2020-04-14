@@ -1,3 +1,2 @@
-* [Index](/index)
-* [Terms Of Service](/tos)
-* [Contacts](/contacts)
+[Terms Of Service](/tos)
+[Contacts](/contacts)
