@@ -1,5 +1,6 @@
 Privacy Policy
 ----
+
 This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use Juick.
 
 If you choose to use Juick, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving Juick. We will not use or share your information with anyone except as described in this Privacy Policy.
@@ -10,6 +11,10 @@ Information Collection and Use
 ------
 
 For a better experience while using Juick, we may require you to provide us with certain personally identifiable information, including but not limited to your name and email address. The information that we collect will be used to contact or identify you.
+
+You can control the information we collect about you by limiting what information is in your profile, by keeping your information current, by changing your cookie preferences, or by [contacting us](/contacts).
+
+We retain and use your information as described in this Privacy Policy, but barring legal requirements, we will delete your full profile within 90 days of your request.
 
 Log Data
 ------
