@@ -14,7 +14,7 @@ For a better experience while using Juick, we may require you to provide us with
 
 You can control the information we collect about you by limiting what information is in your profile, by keeping your information current, by changing your cookie preferences, or by [contacting us](/contacts).
 
-We retain and use your information as described in this Privacy Policy, but barring legal requirements, we will delete your full profile within 90 days of your request.
+We retain and use your information as described in this Privacy Policy, but barring legal requirements, we will delete your full profile within 90 days of your request. [Contact us](/contacts) if you want to delete your data.
 
 Log Data
 ------
