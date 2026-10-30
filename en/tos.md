@@ -6,10 +6,11 @@ Strictly forbidden
   3. Interfere with the normal operation of the service.
   4. Post or send spam (including a search-spam), or automatically generated messages.
 
+Juick has no tolerance for objectionable content or abusive users. Such content is removed and offending accounts are blocked.
+
 You are responsible for all activities that occur with your account.
 
 Privacy Statement
 ---
 
-Personal information is not collected, not transferred to remote services.
-Information is not disclosed to the third parties, not encrypted and not decrypted.
+Our handling of personal information is described in the [Privacy Policy](/privacy).

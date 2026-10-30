@@ -7,6 +7,8 @@
   <li>Poster ou envoyer du spam (y compris une recherche-spam), ou les messages générés automatiquement.</li>
 </ol>
 
+<p>Juick ne tolère aucun contenu répréhensible ni aucun utilisateur abusif. Ces contenus sont supprimés et les comptes fautifs sont bloqués.</p>
+
 <p>Vous êtes responsable de toutes les activités qui se produisent avec votre compte.</p>
 
 <h2>Photo et vidéo</h2>
@@ -21,6 +23,5 @@ qui ont été créés par vous ou dans laquelle vous êtes présent.
 
 <h2>Déclaration de confidentialité</h2>
 <p>
-Les renseignements personnels ne sont pas collectées, ne sont pas transférés à des services distants.
-Informations ne sont divulgués à des tiers, et non crypté et non déchiffré.
+Le traitement des renseignements personnels est décrit dans la <a href="privacy">Privacy Policy</a>.
 </p>
